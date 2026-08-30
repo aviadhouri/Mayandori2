@@ -58,7 +58,7 @@ function resize(){
   canvas.style.width=W+"px";
   canvas.style.height=H+"px";
   ctx.setTransform(dpr,0,0,dpr,0,0);
-  player.w = Math.max(190,Math.min(320,W*.52));
+  player.w = Math.max(135,Math.min(220,W*.36));
   player.h = player.w*.69;
   player.y = H-player.h-24;
   if(!player.x) player.x=(W-player.w)/2;
